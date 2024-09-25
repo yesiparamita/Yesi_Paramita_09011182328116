@@ -79,7 +79,7 @@ Jelaskan perbedaan kedua utilitas tersebut.
 = Perbedaannya adalah jika menggunakan perintah su mahasiswa, hanya identitas pengguna yang berubah sementara lingkungan (environment) dari pengguna sebelumnya tetap dipertahankan. Sebaliknya, perintah su - mahasiswa melakukan login baru sepenuhnya, termasuk memuat ulang seluruh lingkungan pengguna baru dari awal.
 
 
-##**2. Prompt String (PS)**
+## **2. Prompt String (PS)**
 
 a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell PS1=‟> „ export PS1
 
@@ -91,7 +91,8 @@ b. Eksperimen hasil PS1 : $ PS1=“! > “ 69 > PS1=”\d > “ Mon Sep 23 > PS1
 
 <img width="600" alt="Cuplikan layar 2024-09-25 215300" src="https://github.com/user-attachments/assets/75671317-6713-4319-b45d-87379146d974">
 
-##**3. Logout**
+
+## **3. Logout**
 
 Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout Echo “Terima kasih atas sesi yang diberikan” Sleep 5 clear
 
@@ -101,7 +102,8 @@ Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum ekseku
 
 <img width="600" alt="Cuplikan layar 2024-09-25 225901" src="https://github.com/user-attachments/assets/4c93c0f3-8326-46fb-a57c-93e4eb3f99df">
 
-##**4. Bash script**
+
+## **4. Bash script**
 
 a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :
 
@@ -163,7 +165,8 @@ b. Jalankan script tersebut sebagai berikut :
 
 <img width="600" alt="Cuplikan layar 2024-09-25 231628" src="https://github.com/user-attachments/assets/87ea02a2-d0b0-43bf-9b16-0a5301c71182">
 
-##**5. Jobs**
+
+## **5. Jobs**
 
 a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.
 
@@ -207,7 +210,8 @@ $ kill [Nomor PID]
 
 <img width="600" alt="Cuplikan layar 2024-09-25 232402" src="https://github.com/user-attachments/assets/bf5577de-9921-4a96-b603-c34297313084">
 
-##**6. History**
+
+## **6. History**
 
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20
 
